@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+h1{
+  font-weight: 700;
+  font-size: 5rem;
+  color: white;
+}
+head{
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}
+body{
+  font-family: 'Red Hat Text', sans-serif;
+}
+.ba{
+      padding: 1em 2em;
+
+}
+p{
+  line-height: 1.5;
+  font-weight: 700;
+    font-size: 1rem;
+    position: relative;
+}
+
+a{
+  display: inline-block;
+  padding: 1em 3em;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}
+.container{
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://avatars.mds.yandex.net/get-entity_search/1327047/809404153/orig);
+  background-size: cover;
+  background-position: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+  background-attachment: fixed;
+}
+.container2{
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://madetrip.ru/wp-content/uploads/2022/05/shanghai-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}
+
+.container3{
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://news.cgtn.com/news/784d6a4e78596a4e796b444e324d444e32516a4e31457a6333566d54/img/b4a2762781ef4ca5adb26834db92c626/b4a2762781ef4ca5adb26834db92c626.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}
+
+.blank,
+.other{
+  min-height: 0vh;
+  margin: 0 auto;
+}
+.second{
+  background-image: url(https://art-fresco.ru/upload/iblock/57c/xz9gc6zh9k0k6dak79nzc0solh8t0dzh.jpg);
+  background-attachment: fixed;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-top: 1em;
+}
+.card > a{
+  margin-bottom: 3em;
+  margin-top: 10px;
+}
+.item{
+  max-width: 320px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    padding: 1em 2em;
+}
+.img{
+  width: 18em;
+  height: 15em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+.img-first{
+  background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663358962_36-mykaleidoscope-ru-p-imperatorskii-dvorets-v-pekine-oboi-42.jpg);
+}
+.img-second{
+  background-image: url(https://wallpapers.com/images/featured-full/summer-palace-5rablwfgqc57dqkb.jpg);
+}
+.img-third{
+  background-image: url(https://c1.staticflickr.com/3/2518/4131897888_d92d29342b_b.jpg);
+}
+.img-first1{
+  background-image: url(https://wow.re/wp-content/uploads/2020/08/SHANGHAI-JADE-BUDDHA-TEMPLE.jpg);
+}
+.img-second1{
+  background-image: url(https://cdn.tripster.ru/thumbs2/8390bb02-5dfd-11ea-9f1a-02b782d69cda.800x600.jpg);
+}
+.img-third1{
+  background-image: url(https://forum.awd.ru/gallery/images/upload/6d9/1cc/6d91cc00cbff036dd35d183c99cc97ca.jpg);
+}
+
+.img-first2{
+  background-image: url(https://www.vesveter.ru/images/china/pagoda_dikih_gusej.jpg);
+}
+.img-second2{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0a/Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg);
+}
+.img-third2{
+  background-image: url(https://img.tourister.ru/files/8/9/0/9/6/8/6/original.jpg);
+}
+@media (max-width: 1800px){
+.second{
+  flex-direction: row;
+  gap: 1.6em;
+}}
+
+
+
+@media (max-width: 1300px) {
+  .card > a{
+  margin-bottom: 3em;
+  margin-top: 10px;
+}
+.second{
+  flex-direction: row;
+  gap: 1.2em;
+}
+.item{
+  max-width: 300px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    padding: 1em 2em;
+}
+.img{
+  width: 14em;
+  height: 12em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+
+    
+}
+
+
+
+@media (max-width: 1185px) {
+  .card > a{
+  margin-bottom: 3em;
+  margin-top: 10px;
+}
+.item{
+  max-width: 300px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    padding: 1em 2em;
+}
+.img{
+  width: 14em;
+  height: 12em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+  
+}
+@media (max-width: 900px) {
+  .card > a{
+  margin-bottom: 3em;
+  margin-top: 10px;
+}
+.item{
+  max-width: 270px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+
+    padding: 1em 2em;
+}
+.img{
+  width: 14em;
+  height: 12em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+  
+}
+
+
+
+
+@media (max-width: 780px) {
+  .card > a{
+  margin-bottom: 1em;
+  margin-top: 3px;
+}
+.item{
+  max-width: 200px;
+  background-color: white;
+  border-radius: .5em;
+  padding: 1em 2em;
+}
+.img{
+  width: 11em;
+  height: 9em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+@media (max-width: 480px) {
+
+  .card > a{
+  margin-bottom: 0.6em;
+  margin-top: 3px;
+}
+.item{
+  max-width: 150px;
+  background-color: white;
+  border-radius: .5em;
+  padding: 1em 2em;
+}
+.img{
+  width: 9em;
+  height: 7em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+
+  
+    
+    }
